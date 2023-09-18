@@ -1,0 +1,6 @@
+langchain
+pinecone-client
+streamlit
+unstructured
+python-dotenv
+openai
