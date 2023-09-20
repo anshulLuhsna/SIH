@@ -4,3 +4,4 @@ streamlit
 unstructured
 python-dotenv
 openai
+speech_recognition
