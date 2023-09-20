@@ -5,3 +5,4 @@ unstructured
 python-dotenv
 openai
 SpeechRecognition
+PyAudio
