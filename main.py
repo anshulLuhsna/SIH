@@ -9,7 +9,6 @@ import pinecone
 from langchain.vectorstores import Pinecone
 from langchain.embeddings.openai import OpenAIEmbeddings
 import streamlit as st
-import speech_recognition as sr
 
 
 
@@ -57,8 +56,7 @@ if "conversation" not in st.session_state:
 if "voiceinp" not in st.session_state:
      st.session_state.voiceinp = False
 
-def get_voice():
-    st.session_state.voiceinp = True
+
 
 
 
