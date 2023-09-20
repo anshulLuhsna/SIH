@@ -14,8 +14,8 @@ import streamlit as st
 
 
 load_dotenv()
-open_key = os.environ.get("OPENAI_API_KEY")
-pine_key = os.environ.get("PINECONE_API_KEY")
+open_key = st.secrets["OPENAI_API_KEY"]
+pine_key = st.secrets["PINECONE_API_KEY"]
 openai.api_key = open_key
 
 pinecone.init(api_key = pine_key,
